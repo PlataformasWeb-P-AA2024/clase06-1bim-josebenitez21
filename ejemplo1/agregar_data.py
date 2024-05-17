@@ -26,5 +26,7 @@ miSaludo2.tipo = "formal"
 session.add(miSaludo)
 session.add(miSaludo2)
 
+#Se maneja mediante objetos de la clase en este caso Saludo() y se envia la info accediendo a los atributos de la clase
+
 # se confirma las transacciones
 session.commit()
